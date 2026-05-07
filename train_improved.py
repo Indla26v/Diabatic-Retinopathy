@@ -193,6 +193,10 @@ val_loader = DataLoader(
 print(f"\nTrain batches: {len(train_loader)}")
 print(f"Val batches  : {len(val_loader)}")
 
+###sdfjskfjdsf
+sfdsd
+
+sdf
 # ===================== Model =====================
 class CNNTransformerDR(nn.Module):
     """EfficientNet-B3 + Transformer Encoder (Full Kaggle Architecture)"""
