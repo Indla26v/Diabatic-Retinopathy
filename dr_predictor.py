@@ -48,6 +48,7 @@ DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 # ==================== Model Definition ====================
 
+class CNNTransformerDR(nn.Module):
     def __init__(self, cfg):
         super().__init__()
         eff = tv_models.efficientnet_b3(weights=tv_models.EfficientNet_B3_Weights.DEFAULT)

@@ -194,7 +194,7 @@ print(f"\nTrain batches: {len(train_loader)}")
 print(f"Val batches  : {len(val_loader)}")
 
 # ===================== Model =====================
-class class CNNTransformerDR(nn.Module):
+class CNNTransformerDR(nn.Module):
     """EfficientNet-B3 + Transformer Encoder (Full Kaggle Architecture)"""
     def __init__(self, cfg):
         super().__init__()
